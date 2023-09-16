@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <title>Prototipo</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">TECHNOVATION GIRLS</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="nav-lectura">
+                            <a class="nav-link" href="#">Lectura</a>
+                        </li>
+                        <li class="nav-item" id="nav-ortografia">
+                            <a class="nav-link" href="#">Ortografía</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-sm">
+            <div class="container">
+                <h1>Comprensión lectora</h1>
+                <h3>Pilarín y sus muñecas</h3>
+                <p>Pilarín es una niña inquieta y juguetona. Tiene muchos
+                    cachivaches en su habitación, pero lo que más le gusta, es
+                    una
+                    muñeca de trapo que le hizo su mamá. Desde hace algún
+                    tiempo,
+                    son inseparables.
+                    Posiblemente no sea la muñeca más bonita del mundo porque
+                    sus
+                    ojos son dos simples botones azules y su boca está cosida
+                    con
+                    hilo rojo. El pelo está hecho con un ovillo de lana gruesa
+                    que
+                    llevaba años olvidado en el costurero.
+                    Tampoco es la más moderna ya que su vestido de lunares
+                    procede
+                    de un viejo retal. No llora, ni anda, ni dice cosas como
+                    otras
+                    muñecas, pero a la niña le da igual; la lleva al colegio
+                    metida
+                    en su mochila, le prepara comiditas imaginarias en su cocina
+                    de
+                    plástico y por las noches, duermen juntas.
+
+                    Pilarín nunca se olvida de dar un besito y desear felices
+                    sueños
+                    a su querida muñeca. Para ella es la más linda de todas.
+                </p>
+            </div>
+            <div class="container">
+                <h3>Pon a prueba tus conocimientos</h3>
+                <h4>Según la lectura, ¿La siguiente afirmación es verdadera o
+                    falsa?</h4>
+                <p>A Pilarin no le gusta la muñeca que le hizo su mamá</p>
+                <button id="btrue"> Verdadero </button>
+                <button id="bfalse"> Falso </button>
+                <button id="breload" style="display: none;"> Reintentar </button>
+            </div>
+            <div class="container">
+                <p style="display: none;" id="incorrecto">Diste clic en el botón "VERDADERO", lo cual es INCORRECTO. La afirmación es falsa porque a Pilarin sí le
+                    gusta la muñeca que su mamá le hizo.</p>
+                <p style="display: none;" id="correcto">Diste clic en el botón "FALSO", lo cual es CORRECTO. La afirmación es falsa porque a Pilarin sí le gusta
+                    la muñeca que su mamá le hizo.</p>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>
